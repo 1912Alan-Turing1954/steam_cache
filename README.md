@@ -5,7 +5,7 @@ this is a steam cache setup for a ubunutu os.
 the setup only requires to clone the repository & run the bash/sh file named **init_cache.sh**
 
 ## 1.
-  (Optional but recommened)
+  (Optional)
   - add a seperate user with admin privilages to run the docker containers & and commands
   - run the followling commands to do so, **if not skip to step **2****
   ```
@@ -15,8 +15,9 @@ the setup only requires to clone the repository & run the bash/sh file named **i
   ```
   ~$ usermod -aG sudo USERNAME
   ```
+  - Give the new user the ability to run docker commands 
   ```
-  ~$ sudo adduser USERNAME
+  ~$ usermod -aG docker USERNAME
   ```
 
 
