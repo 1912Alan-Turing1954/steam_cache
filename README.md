@@ -9,6 +9,9 @@ the setup only requires to clone the repository and run the bash/sh file named *
 
 ## 1.
   - cd into the steam cache directory
+  ```
+    ~$ cd steam_cache
+  ```
   - run the following command 
   ```
    ~$ chmod +x init_cache.sh
