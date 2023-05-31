@@ -16,3 +16,4 @@ the setup only requires to clone the repository and run the bash/sh file named *
   ```
   ~$ chmod +x init_cache.sh
   ```
+  if admin priviliges needed run **sudo** /  or be in **root**
