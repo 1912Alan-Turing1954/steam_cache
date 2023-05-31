@@ -11,6 +11,7 @@ the setup only requires to clone the repository & run the bash/sh file named **i
   ```
   ~$ sudo adduser USERNAME
   ```
+  - Add admin privilages to said user
   ```
   ~$ usermod -aG sudo USERNAME
   ```
