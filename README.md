@@ -2,12 +2,14 @@
 
 this is a steam cache setup for a ubunutu os.
 
-```
-  
-```
-the setup only requires to clone the repository and run the bash/sh file named **init_cache.sh**
+the setup only requires to clone the repository & run the bash/sh file named **init_cache.sh**
 
 ## 1.
+  (Optional but recommened)
+  - add a seperate user to run the docker containers & 
+
+
+## 2. 
   - cd into the steam cache directory
   ```
   ~$ cd steam_cache
